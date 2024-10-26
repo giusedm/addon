@@ -382,5 +382,6 @@ builder.defineStreamHandler(async (args) => {
     return { streams: [] };
 });
 
-serveHTTP(builder.getInterface(), { port: 7000, address: '0.0.0.0' });
-log('Addon is listening on port 7000');
+serveHTTP(builder.getInterface(), { port: process.env.PORT || 7000, address: '0.0.0.0' });
+log('Addon is listening on port ' + (process.env.PORT || 7000));
+
