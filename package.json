@@ -2,6 +2,9 @@
   "name": "streamingcommunity-addon",
   "version": "1.0.0",
   "main": "tvshow.js",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "axios": "^1.7.7",
     "stremio-addon-sdk": "^1.6.10"
