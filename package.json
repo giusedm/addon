@@ -11,7 +11,7 @@
     "stremio-addon-sdk": "^1.6.10"
   },
   "scripts": {
-    "start": "node tvshow.js"
+    "start": "npm start"
   }
 }
 
