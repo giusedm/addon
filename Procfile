@@ -1,1 +1,1 @@
-web: python main.py & node addon.js
+web: node addon.js
